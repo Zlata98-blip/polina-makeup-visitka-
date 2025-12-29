@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Полина Мочалова - Профессиональный визажист | Липецк</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="business-card">
+            <!-- Шапка с фото и именем -->
+            <div class="card-header">
+                <div class="header-decoration"></div>
+                <div class="header-decoration-2"></div>
+                
+                <!-- Увеличенное фото без обрезки -->
+                <div class="photo-container-large">
+                    <div class="photo-frame">
+                        <img src="images/5372990382515358756.jpg" 
+                             alt="Полина Мочалова - профессиональный визажист" 
+                             class="profile-photo-large"
+                             onerror="this.style.display='none'; document.getElementById('placeholder-large').style.display='flex';">
+                        
+                        <div class="photo-placeholder-large" id="placeholder-large" style="display: none;">
+                            <i class="fas fa-sparkles"></i>
+                        </div>
+                    </div>
+                    <div class="photo-glow"></div>
+                </div>
+                
+                <h1 class="animated-name">Полина <span class="name-highlight">Мочалова</span></h1>
+                <div class="profession">Визажист-стилист | Липецк</div>
+                <div class="divider animated-divider"></div>
+            
+            <!-- Основная информация и контакты -->
+            <div class="card-content">
+                <div class="info-section">
+                    <h2><i class="fas fa-address-card"></i> Контакты</h2>
+                    <ul class="contact-list">
+                        <li>
+                            <div class="contact-icon pulse">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                Телефон для записи
+                                <a href="tel:+79046991096" class="contact-link">+7 (904) 699-10-96</a>
+                                <span class="contact-note"><i class="fab fa-telegram"></i> Telegram</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                Адрес студии
+                                <div class="address">
+                                    <i class="fas fa-building"></i> г. Липецк, ул. Мусоргского, 3
+                                </div>
+                                <span class="contact-note"><i class="fas fa-car"></i> Выезд на дом и в офис доступен</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">
+                                <i class="far fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-note"><i class="fas fa-calendar-check"></i> По предварительной записи</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="info-section">
+                    <h2><i class="fas fa-star"></i> Услуги</h2>
+                    <ul class="contact-list">
+                        <li>
+                            <div class="contact-icon service-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="contact-text">
+                                <strong>Свадебный макияж</strong><br>
+                                <span class="service-desc">Создание идеального образа для самого важного дня</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon service-icon">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <div class="contact-text">
+                                <strong>Вечерний макияж</strong><br>
+                                <span class="service-desc">Для мероприятий, фотосессий и особых случаев</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon service-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="contact-text">
+                                <strong>Выпускной макияж</strong><br>
+                                <span class="service-desc">Подчеркнет вашу молодость и индивидуальность</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon service-icon">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                            <div class="contact-text">
+                                <strong>Консультация и обучение</strong><br>
+                                <span class="service-desc">Индивидуальные уроки: "Макияж для себя", "Визаж с 0"</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Прайс-лист -->
+            <div class="price-section">
+                <h2><i class="fas fa-tags"></i> Прайс-лист</h2>
+                <div class="price-grid">
+                    <div class="price-category">
+                        <h3><i class="fas fa-spa"></i> Базовые услуги</h3>
+                        <div class="price-item">
+                            <span class="service-name">Макияж</span>
+                            <span class="service-price">2500₽</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Укладка</span>
+                            <span class="service-price">1500₽</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Полный образ (макияж + укладка)</span>
+                            <span class="service-price">4000₽</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Выезд к клиенту</span>
+                            <span class="service-price">+2000₽</span>
+                        </div>
+                    </div>
+                    
+                    <div class="price-category">
+                        <h3><i class="fas fa-ring"></i> Свадебные услуги</h3>
+                        <div class="price-item">
+                            <span class="service-name">Свадебный макияж</span>
+                            <span class="service-price">3000₽</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Свадебная укладка</span>
+                            <span class="service-price">2000₽</span>
+                        </div>
+                        <div class="price-item featured">
+                            <span class="service-name">Свадебный образ (макияж + укладка)</span>
+                            <span class="service-price">5000₽</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Пробный образ (перед свадьбой)</span>
+                            <span class="service-price">4000₽</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="price-notes">
+                    <div class="note-item important">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <span><strong>Сборы:</strong> до 8:00 и после 18:00 +1000₽ к стоимости услуги</span>
+                    </div>
+                    <div class="note-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Длительность макияжа: 1 час, укладки: 1 час-1,5 часа</span>
+                    </div>
+                    <div class="note-item">
+                        <i class="fas fa-calendar-check"></i>
+                        <span>Для записи необходима предоплата-500₽</span>
+                    </div>
+                    <div class="note-item">
+                        <i class="fas fa-palette"></i>
+                        <span>В стоимость включены профессиональная косметика и расходные материалы</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Секция портфолио -->
+            <div class="portfolio-section">
+                <h2><i class="fas fa-images"></i> Портфолио</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-img-container">
+                            <img src="images/IMG_2771.JPG" 
+                                 alt="Свадебный макияж" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-caption">Свадебный макияж</div>
+                    </div>
+                    
+                    <div class="portfolio-item">
+                        <div class="portfolio-img-container">
+                            <img src="images/IMG_7542.JPG" 
+                                 alt="Вечерний макияж" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-caption">Вечерний макияж</div>
+                    </div>
+                    
+                    <div class="portfolio-item">
+                        <div class="portfolio-img-container">
+                            <img src="images/IMG_6571.JPG" 
+                                 alt="Дневной макияж" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-caption">Дневной макияж</div>
+                    </div>
+                    
+                       <div class="portfolio-item">
+                        <div class="portfolio-img-container">
+                            <img src="images/IMG_9550.JPG" 
+                                 alt="Дневной макияж" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-caption">Макияж в технике "Голивудская стрелка"</div>
+                    </div>
+
+                        <div class="portfolio-item">
+                        <div class="portfolio-img-container">
+                            <img src="images/IMG_8735.JPG" 
+                                 alt="Дневной макияж" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-caption">Макияж в технике "Smoky eyes"</div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-img-container">
+                            <img src="images/IMG_1166.JPG" 
+                                 alt="Дневной макияж" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-caption">Макияж в технике "Растушеванная стрелка"</div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <!-- Социальные сети и кнопки действия -->
+            <div class="social-section">
+                <h3><i class="fas fa-share-alt"></i> Свяжитесь со мной</h3>
+                <div class="social-links">
+                    <a href="https://t.me/mochalova_p" class="social-btn telegram pulse-btn" target="_blank" title="Telegram">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                    <a href="https://vk.ru/mochalova_polina" class="social-btn vk" target="_blank" title="ВКонтакте">
+                        <i class="fab fa-vk"></i>
+                    </a>
+                    <a href="https://www.instagram.com/mochalova_polina?igsh=NXltOWM1aTczM3B2" class="social-btn instagram" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                
+                <div class="action-buttons">
+                    <a href="https://t.me/mochalova_p" class="btn btn-primary pulse-btn" target="_blank">
+                        <i class="fab fa-telegram-plane"></i> Написать в Telegram
+                    </a>
+                    <a href="tel:+79046991096" class="btn btn-secondary">
+                        <i class="fas fa-phone-alt"></i> Позвонить сейчас
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Подвал -->
+            <div class="card-footer">
+                <i class="far fa-copyright"></i> Полина Мочалова. Профессиональные услуги визажиста в Липецке.
+            </div>
+        </div>
+    </div>
+       
+    <script src="script.js"></script>
+</body>
+</html>
